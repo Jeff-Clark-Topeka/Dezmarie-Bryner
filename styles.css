@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2% 6%;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    /* box-shadow: 5px 5px 4.5px gray; */
+}
+
+/* .about-cont {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0;
+    box-shadow: 5px 5px 12px gray;
+}
+
+.about-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 2% 0;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 3% 4%;
+}
+
+.contact {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0;
+    box-shadow: 5px 5px 12px gray;
+}
+
+.contact-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 0.8rem;
+} */
+
+.name-div {
+    width: 68%;
+    padding: 1% 0;
+    background-color: #333333;
+}
+
+li {
+    list-style: none;
+    margin: 5% 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 3.5rem;
+}
+
+.hamburger {
+    z-index: 100;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: 8px;
+    margin: 0 10%;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: white;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35% 0;
+} 
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.aboutCont, .contactCont {
+    margin: 2% 4%;
+}
+
+.aboutCont h2, .contactCont h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.aboutItem {
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+.aboutItem span {
+    font-weight: 1000;
+}
+
+.contactCont {
+    margin: 16% 4%;
+    color: #333333;
+}
+
+.contactCont h2 {
+    margin-bottom: 5%;
+}
+
+.contactCont h3 {
+    margin: 2% 0;
+    font-weight: 400;
+}
+
+.contactCont span {
+    font-weight: 1000;
+}
+
+.contactCont a {
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.email {
+    font-size: 1rem;
+    color: blue; 
+}
