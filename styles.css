@@ -215,6 +215,14 @@ a {
         color: #333333;
         font-size: 2rem;
     }
+
+    .aboutCont h2 {
+        margin-bottom: 3%;
+    }
+
+    .aboutCont h2, .aboutCont li, .contactCont h2, .contactCont h3 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
