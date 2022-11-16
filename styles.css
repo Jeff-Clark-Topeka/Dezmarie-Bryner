@@ -185,3 +185,117 @@ a {
     font-size: 1rem;
     color: blue; 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .name-div {
+        width: 30%;
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .menu {
+        width: 70%;
+        transform: translateY(0);
+        z-index: 0;
+        background: none;
+        position: relative;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-around; 
+    }
+
+    li {
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .name-div {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 0 10%;
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .menu {
+        width: 80%;
+        transform: translateY(0);
+        z-index: 0;
+        background: none;
+        position: relative;
+        padding: 0;
+        flex-direction: row;
+        justify-content: flex-end; 
+    }
+
+    li {
+        margin: 0 4%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 3rem;
+    }
+
+    a:hover {
+        opacity: 50%;
+    }
+
+    .photos {
+        display: grid;
+        grid-template-columns: 33.3vw 33.4vw 33.3vw;
+    }
+
+    .photos img {
+        height: 90vh;
+    }
+
+    .aboutPageCont, .contactPageCont {
+        display: flex;
+        border: 1px solid #333333;
+    }
+
+    .aboutPageCont img, .contactPageCont img {
+        width: 56vw;
+        height: auto;
+    }
+    
+    .aboutCont, .contactCont {
+        width: 44vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aboutCont h2, .contactCont h2 {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+
+    .aboutList li {
+        font-size: 2rem;
+        margin: 5% 0;
+    }
+
+    .contactCont h3 {
+        font-size: 1.5rem;
+    }
+}
