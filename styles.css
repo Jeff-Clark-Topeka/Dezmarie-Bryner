@@ -31,60 +31,7 @@ h1 {
 img {
     width: 100%;
     height: auto;
-    /* box-shadow: 5px 5px 4.5px gray; */
 }
-
-/* .about-cont {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2% 0;
-    padding: 0;
-    box-shadow: 5px 5px 12px gray;
-}
-
-.about-div {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-}
-
-h2 {
-    margin: 2% 0;
-}
-
-ul {
-    width: 100%;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-    padding: 3% 4%;
-}
-
-.contact {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2% 0;
-    padding: 0;
-    box-shadow: 5px 5px 12px gray;
-}
-
-.contact-div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-}
-
-h3 {
-    font-size: 0.8rem;
-} */
 
 .name-div {
     width: 68%;
